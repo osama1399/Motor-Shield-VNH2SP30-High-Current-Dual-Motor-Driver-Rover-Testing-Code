@@ -10,3 +10,11 @@ Current sense output proportional to motor current
 MOSFET on-resistance: 19 mΩ (per leg) 
 Maximum PWM frequency: 20 kHz 
 Thermal Shutdown Undervoltage and Overvoltage shutdown
+
+Before getting started, make sure to prepare all of below:
+
+1. Arduino Uno Board and USB
+2. Monster Motor Shield VNH2SP30
+3. 2 DC Motor 12V
+4. Jumper Wires / Crocodile Clip
+5. Adapter / Battery (5.5V - 16V)
