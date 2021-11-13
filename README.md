@@ -1,4 +1,4 @@
-# Motor-Shield-VNH2SP30-High-Current-Dual-Motor-Driver-Rover-Testing-Code
+# Motor Shield VH2SP30 High Current Dual Motor Driver/Rover Testing Code
 
 VNH2SP30 is a full bridge motor driver intended for a wide range of automotive applications. The device incorporates a dual monolithic high side driver and two low side switches. The high side driver switch is designed using the STMicroelectronic’s well known and proven proprietary VIPower M0 technology which permits efficient integration on the same die of a true Power MOSFET with an intelligent signal/protection circuitary. The VIN and motor out are pitched for 5mm screw terminals, making it easy to connect larger gauge wires. INA and INB control the direction of each motor, and the PWM pins turns the motors on or off. For the VNH2SP30, the current sense (CS) pins will output approximately 0.13 volts per amp of output current.  
 
