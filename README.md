@@ -6,13 +6,14 @@ VNH2SP30 is a full bridge motor driver intended for a wide range of automotive a
 
 ## Key Features:
 
-- Voltage Range : 5.5V - 16V 
-- Maximum Current rating : 30A 
-- Practical Continuous Current: 14 A 
-- Current sense output proportional to motor current 
-- MOSFET on-resistance: 19 mΩ (per leg) 
-- Maximum PWM frequency: 20 kHz 
+| Voltage Range | 5.5V - 16V | 
+| Maximum Current rating | 30A | 
+| Practical Continuous Current | 14 A | 
+| MOSFET on-resistance | 19 mΩ (per leg) | 
+| Maximum PWM frequency | 20 kHz |
+
 - Thermal Shutdown Undervoltage and Overvoltage shutdown
+- Current sense output proportional to motor current 
 
 ## Components Used:
 
