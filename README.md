@@ -1,10 +1,10 @@
 # Motor Shield VH2SP30 High Current Dual Motor Driver/Rover Testing Code
 
-##Introduction:
+## Introduction:
 
 VNH2SP30 is a full bridge motor driver intended for a wide range of automotive applications. The device incorporates a dual monolithic high side driver and two low side switches. The high side driver switch is designed using the STMicroelectronic’s well known and proven proprietary VIPower M0 technology which permits efficient integration on the same die of a true Power MOSFET with an intelligent signal/protection circuitary. The VIN and motor out are pitched for 5mm screw terminals, making it easy to connect larger gauge wires. INA and INB control the direction of each motor, and the PWM pins turns the motors on or off. For the VNH2SP30, the current sense (CS) pins will output approximately 0.13 volts per amp of output current.  
 
-##Key Features:
+## Key Features:
 
 - Voltage Range : 5.5V - 16V 
 - Maximum Current rating : 30A 
@@ -14,7 +14,7 @@ VNH2SP30 is a full bridge motor driver intended for a wide range of automotive a
 - Maximum PWM frequency: 20 kHz 
 - Thermal Shutdown Undervoltage and Overvoltage shutdown
 
-##Components Used:
+## Components Used:
 
 1. Arduino Uno Board and USB
 2. Monster Motor Shield VNH2SP30
@@ -22,7 +22,7 @@ VNH2SP30 is a full bridge motor driver intended for a wide range of automotive a
 4. Jumper Wires / Crocodile Clip
 5. Adapter / Battery (5.5V - 16V)
 
-##Hardware Pinout
+## Hardware Pinout
 
 A0 : Enable pin for motor 1
 
@@ -44,7 +44,7 @@ D5 : PWM for motor 1
 
 D6 : PWM for motor 2
 
-##Truthtable To Make Motor To Rotate :
+## Truthtable To Make Motor To Rotate :
 
 Motor 0
 
@@ -58,7 +58,7 @@ STOP : D4 0, D9 0 & D4 1, D9 1
 CCW : D4 0, D9 1
 CW : D4 1, D9 0
 
-##Working & Result Of This Code:
+## Working & Result Of This Code:
 
 When you have finished compiling the sample source code and uploading to your arduino uno board, go to Tools > Serial Monitor and you will get a serial monitor. Set the baud rate to 9600 & and you will see the window:
 
