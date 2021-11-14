@@ -66,10 +66,10 @@ When you have finished compiling the sample source code and uploading to your ar
 
 ![F3HFOCHIU7TQBC2](https://user-images.githubusercontent.com/75852015/141662267-6a9abd3d-61a7-4dd2-8e1f-5c27e650e9d4.png)
 
-- When user enter number '2', dc motor start to rotate forward and serial monitor will print forward.
+- When user enter '1', dc motor stop from rotating and serial monitor will print stop.
+- When user enter '2', dc motor start to rotate forward and serial monitor will print forward.
 - When user enter '3', dc motor start to reverse and serial monitor will print reverse.
 - When user enter '4', dc motor start turning right and serial monitor will print Turning Right.
 - When user enter '5', dc motor start turning left and serial monitor will print Turning Left.
-- When user enter '1', dc motor stop from rotating and serial monitor will print stop.
 - When user enter '+', dc motor's speed increase by 10 and serial monitor will print the motor's speed. However, dc motor maximum speed is 255, thus, when user enter '++' more it will still print 255 and never more than 255 (as shown in the pic).
 - When user enter '-', dc motor's speed decrease by 10 and serial monitor will print the motor's speed. However, dc motor minimum speed is 0, thus, when user enter '--' more it will still print 0 and never less than 0
